@@ -1,9 +1,134 @@
-body { 
-    background-color: #2f343b;
-    color: #d4d8dd;
+/* a fo/* a fonte personalizada deve ir aqui, por exemplo 
+google fonts ir em obter depois import
+ @import url('https://fonts.googleapis.com/css2?family=Cal+Sans&display=swap');
+
+e depois fazer a tag da fonte 
+por exemplo .font_bonita {
+  font-family "nome da fonte", system-ui;
+
+ */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ body { 
+  background-color: #181616;
+  color: #d4d8dd;
+  padding-top: 30px;
+  margin: 0;
 }
 
 
+/* 2f343b */ 
+
+.navbar {
+  color: white;
+  background-color: rgb(0, 0, 0);
+  text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%; /* faz preencher toda pag */
+}
+
+.navbar ul {
+  list-style: none; 
+    display: flex; 
+    justify-content: center; 
+    margin: 0;
+    padding: 0;
+  }
+
+  .navbar ul li {
+    margin: 0 15px;
+  }
+
+  .navbar ul li a {
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+  }
+
+  footer {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
 
 
-  
+  /* apenas para a aula do dia 08 */
+
+  .pai {
+    width: 500px;
+    height: 500px;
+    background-color: lightblue;
+  }
+
+  #teste {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    border: 5px solid;
+    padding: 10px; /* o padding cria o espaço do contéudo pra borda */
+  }
+
+  .box2 {
+    width: 500px;
+    height: 500px;
+    background-color: lightblue;
+  }
+
+  #boxconfigtext {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    border: 5px solid;
+    padding: 10px;
+    }
+
+    div {
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+    border: 5px solid color black;
+    padding: 10px;
+    }
+
+    .caixa_b {
+      position: absolute; /* tomar cuidado pois leva em consideraao a posição absoluta */
+      top: 54px;
+      right: 0px;
+    }
+
+    .caixa_c {
+      position: absolute;
+      right: 0px;
+    }
+
+
+
+    nav li {
+      display: inline;
+      background-color: rgb(20, 38, 44);
+    }
+
+    #menu {
+      position: fixed;
+      top: 0;
+    }
+
+    
+    #btnTopo {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      padding: 10px 15px;
+      background-color: #007bff;
+      color: white;
+      border: none;
+      border-radius: 50%;
+      font-size: 20px;
+      cursor: pointer;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+      transition: background-color 0.3s;
+
+    
